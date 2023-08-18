@@ -1,4 +1,4 @@
-# ﻿Homepage Skincare Komunitas
+# ﻿Website Skincare Komunitas
 
 ## Problem Statement
 
@@ -15,3 +15,5 @@ Membuat produk digital berupa website untuk memenuhi kebutuhan informasi tentang
 - [ ] Halaman Ulasan
 
 Project Berjalan.
+
+Deployment with github pages.
