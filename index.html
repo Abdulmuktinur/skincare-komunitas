@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous" />
+  </head>
+  <style>
+    * {
+      font-family: "Roboto", sans-serif;
+    }
+    #home,
+    nav,
+    footer {
+      background-image: url(./image/background.jpg);
+    }
+
+    #home {
+      background-size: cover;
+    }
+
+    #home h1 {
+      color: #ff6998;
+      text-shadow: 0px 4px 25px rgba(255, 70, 128, 0.6);
+    }
+
+    #home button.btn {
+      background-color: #ff6998;
+      color: white;
+    }
+
+    #home button.btn:hover {
+      background-color: #fc457f;
+      color: white;
+    }
+
+    h3.title,
+    h5.title,
+    h6.des {
+      font-weight: 600;
+    }
+  </style>
+  <body>
+    <!-- Navbar Start -->
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">YouthGen</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#product">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimoni">Ulasan</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Hero Start-->
+    <div id="home" class="px-4 py-5 text-center border-bottom">
+      <h1 class="display-5 fw-bold">
+        Temukan Keajaiban Perawatan <br />
+        Kulit yang Mencerahkan
+      </h1>
+      <div class="col-lg-6 mx-auto">
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-4 mt-4">
+          <button type="button" class="btn btn-lg px-4 me-sm-3">
+            Temukan Sekarang
+          </button>
+        </div>
+      </div>
+      <div style="max-height: 50vh">
+        <div class="container px-5">
+          <img
+            src="./image/image 5.png"
+            class="img-fluid mb-4"
+            alt="Example image"
+            width="480"
+            height="480"
+            loading="lazy" />
+        </div>
+      </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- Product Start -->
+    <div id="product" style="padding: 80px 0">
+      <section class="container">
+        <div class="text-center">
+          <h3>Produk Unggulan</h3>
+          <p>
+            "Hadiahkan kulit Anda keindahan yang tak tertandingi dengan koleksi
+            eksklusif kami.<br />Diformulasikan dengan bahan alami pilihan."
+          </p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4 g-4" style="margin: 40px auto">
+          <div class="col">
+            <div class="card shadow border-0">
+              <img
+                src="./image/img1.webp"
+                class="card-img-top"
+                alt="..."
+                style="
+                  overflow: hidden;
+                  object-fit: cover;
+                  width: 260px;
+                  height: 260px;
+                " />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow border-0">
+              <img
+                src="./image/img2.webp"
+                class="card-img-top"
+                alt="..."
+                style="
+                  overflow: hidden;
+                  object-fit: cover;
+                  width: 260px;
+                  height: 260px;
+                " />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow border-0">
+              <img
+                src="./image/img5.webp"
+                class="card-img-top"
+                alt="..."
+                style="
+                  overflow: hidden;
+                  object-fit: cover;
+                  width: 260px;
+                  height: 260px;
+                " />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow border-0">
+              <img
+                src="./image/img4.jpg"
+                class="card-img-top"
+                alt="..."
+                style="
+                  overflow: hidden;
+                  object-fit: cover;
+                  width: 260px;
+                  height: 260px;
+                " />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Product End -->
+
+    <!-- About Start -->
+    <div id="about" style="padding: 80px 0">
+      <section class="container-fluid">
+        <div class="row align-items-center px-0">
+          <div class="col-6 p-0" style="width: 570px; height: 570px">
+            <img
+              src="./image/Media Background.jpg"
+              alt="..."
+              style="height: 570px; width: 570px; object-fit: cover" />
+          </div>
+          <div
+            class="col-6"
+            style="padding-left: 40px; padding-right: 0; text-align: justify">
+            <h3 class="mb-2">Mengapa Memilih Kami ?</h3>
+            <p class="mb-5">
+              Pilihan tepat bagi pecinta perawatan kulit. Kami menghadirkan
+              produk skincare lokal berbahan alami dan kualitas terjamin.
+              Dukungan lokal, fokus pada pemuda kulit, serta komunitas berbagi
+              pengalaman menjadikan kami pilihan utama.
+            </p>
+            <button class="btn" style="background-color: #ff6998; color: white">
+              Lebih Lanjut
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- About End -->
+
+    <!-- Blog Start -->
+    <div id="blog" style="padding: 80px 0">
+      <section class="container px-4 py-4" style="max-width: 960px">
+        <h3>Blog</h3>
+        <p>
+          Temukan berbagai macam tips dan trik merawat kulit agar sehat dan
+          cerah
+        </p>
+        <div class="row py-4">
+          <div class="col-12">
+            <div class="card border-0 mb-3">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <div class="card-body p-0">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-gray">Last updated 3 mins ago</small>
+                    </p>
+                    <button
+                      class="btn"
+                      style="background-color: #ff6998; color: white">
+                      Do Something
+                    </button>
+                  </div>
+                </div>
+                <div class="col-md-6" style="padding-left: 14px">
+                  <img
+                    src="image/img-artikel1.webp"
+                    class="img-fluid rounded"
+                    alt="..." />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="card border-0 mb-3">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <div class="card-body p-0">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-gray">Last updated 3 mins ago</small>
+                    </p>
+                    <button
+                      class="btn"
+                      style="background-color: #ff6998; color: white">
+                      Do Something
+                    </button>
+                  </div>
+                </div>
+                <div class="col-md-6" style="padding-left: 14px">
+                  <img
+                    src="image/img-artikel2.webp"
+                    class="img-fluid rounded"
+                    alt="..." />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="card border-0 mb-3">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <div class="card-body p-0">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-gray">Last updated 3 mins ago</small>
+                    </p>
+                    <button
+                      class="btn"
+                      style="background-color: #ff6998; color: white">
+                      Do Something
+                    </button>
+                  </div>
+                </div>
+                <div class="col-md-6" style="padding-left: 14px">
+                  <img
+                    src="image/img-artikel3.webp"
+                    class="img-fluid rounded"
+                    alt="..." />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Blog End -->
+
+    <!-- Testimoni Start -->
+    <div id="testimoni" style="padding: 80px 0">
+      <section
+        class="container-fluid text-dark"
+        style="width: 1100px; margin: 40px auto; padding: 20px 0">
+        <figure class="text-center">
+          <img
+            src="./image/Media Background.jpg"
+            class="figure-img img-fluid rounded-circle"
+            width="100px"
+            height="100px"
+            alt="..." />
+          <blockquote class="blockquote">
+            <p>
+              Nibh elit lacus mi elit, dui maecenas vestibulum cursus. Aliquet
+              quam cursus tortor eu a. Enim, integer pellentesque sagittis
+              lectus aliquam sed cursus tortor, ac. Ornare quisque ullamcorper a
+              eleifend fringilla turpis.
+            </p>
+          </blockquote>
+          <div class="row">
+            <div class="col-12">
+              <small class="text-gray" style="font-size: 18px; font-weight: 600"
+                >Author Name</small
+              >
+            </div>
+            <div class="col-12">
+              <small class="text-gray" style="font-size: 14px"
+                >Member VVIP</small
+              >
+            </div>
+          </div>
+        </figure>
+      </section>
+    </div>
+    <!-- Testimoni End -->
+
+    <footer class="container-fluid" style="padding: 40px 135px 20px 135px">
+      <div class="row">
+        <div class="col-5 col-md-5 mb-3">
+          <form>
+            <h3 class="title">Youthful Genesis</h3>
+            <h6 class="des">Subscribe to our newsletter</h6>
+            <p>
+              Our vision is to provide convenience and help increase your sales
+              business. Monthly digest of what's new and exciting from us.
+            </p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden"
+                >Email address</label
+              >
+              <input
+                id="newsletter1"
+                type="text"
+                class="form-control"
+                placeholder="Email address" />
+              <button
+                class="btn"
+                type="button"
+                style="background-color: #ff6998; color: white">
+                Subscribe
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col-5 col-md-2 offset-md-1 mb-3">
+          <h5 class="title">Menu</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">Produk</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">Tentang Kami</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">Blog</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">Ulasan</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-5 col-md-2 mb-3">
+          <h5 class="title">Komunitas</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">Kebijakan</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">About</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-5 col-md-2 mb-3">
+          <h5 class="title">Sosial Media</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">Instagram</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">Facebook</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">Tentang Kami</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr class="hr" />
+      <div class="d-flex flex-column flex-sm-row justify-content-between">
+        <p>Youthful Genesis &copy; 2023 Company, Inc. All rights reserved.</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
